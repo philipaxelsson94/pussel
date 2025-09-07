@@ -1,0 +1,21 @@
+.tile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	user-select: none;
+	aspect-ratio: 1 / 1;
+}
+
+.tile.filled {
+	background: #3d4d80;
+	color: white;
+	cursor: pointer;
+}
+
+.tile.empty {
+	background: transparent;
+	color: transparent;
+	cursor: default;
+}
